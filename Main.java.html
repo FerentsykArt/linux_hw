@@ -1,0 +1,42 @@
+<html>
+<head>
+<title>Main.java</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #a9b7c6;}
+.s1 { color: #cc7832;}
+.s2 { color: #6a8759;}
+.s3 { color: #808080;}
+</style>
+</head>
+<body bgcolor="#2b2b2b">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+Main.java</font>
+</center></td></tr></table>
+<pre>      <span class="s1">import </span><span class="s0">java.util.Scanner</span><span class="s1">;</span>
+
+<span class="s1">public class </span><span class="s0">Main {</span>
+
+    <span class="s1">public static void </span><span class="s0">main(String[] args) {</span>
+        <span class="s0">Scanner scanner = </span><span class="s1">new </span><span class="s0">Scanner(System.in)</span><span class="s1">;</span>
+        <span class="s0">System.out.println(</span><span class="s2">&quot;Введите длину прямоугольника&quot;</span><span class="s0">)</span><span class="s1">;</span>
+        <span class="s1">int </span><span class="s0">rectangleLength = scanner.nextInt()</span><span class="s1">; </span><span class="s3">// Длина прямоугольника</span>
+        <span class="s0">System.out.println(</span><span class="s2">&quot;Введите ширину прямоугольника&quot;</span><span class="s0">)</span><span class="s1">;</span>
+        <span class="s1">int </span><span class="s0">rectangleWidth = scanner.nextInt()</span><span class="s1">; </span><span class="s3">//  Ширина прямоугольника</span>
+        <span class="s0">System.out.println(</span><span class="s2">&quot;Введите высоту параллелограма&quot;</span><span class="s0">)</span><span class="s1">;</span>
+        <span class="s1">int </span><span class="s0">parallelogramHeight = scanner.nextInt()</span><span class="s1">; </span><span class="s3">// Высота параллелограма</span>
+        <span class="s0">System.out.println(</span><span class="s2">&quot;Введите длину или ширину параллелограма&quot;</span><span class="s0">)</span><span class="s1">;</span>
+        <span class="s1">int </span><span class="s0">parallelogramLengthOrWidth = scanner.nextInt()</span><span class="s1">; </span><span class="s3">// Длина или ширина параллелограма</span>
+
+        <span class="s1">int </span><span class="s0">rectangleArea = rectangleLength * rectangleWidth</span><span class="s1">; </span><span class="s3">// Площадь прямоугольника</span>
+        <span class="s1">int </span><span class="s0">parallelogramArea = parallelogramHeight * parallelogramLengthOrWidth</span><span class="s1">; </span><span class="s3">// Площадь параллелограма</span>
+
+        <span class="s0">System.out.println(</span><span class="s2">&quot;Важно!!! Калькулятор оперирует только целыми числами. Значение выводится в mm, cm или m. &quot;</span><span class="s0">)</span><span class="s1">;</span>
+        <span class="s0">System.out.println(</span><span class="s2">&quot;Площадь прямоугольника = &quot; </span><span class="s0">+ rectangleArea)</span><span class="s1">;</span>
+        <span class="s0">System.out.println(</span><span class="s2">&quot;Площадь параллелограма = &quot; </span><span class="s0">+ parallelogramArea)</span><span class="s1">;</span>
+    <span class="s0">}</span>
+<span class="s0">}</span></pre>
+</body>
+</html>

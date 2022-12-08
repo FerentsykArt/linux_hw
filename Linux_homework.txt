@@ -1,0 +1,11 @@
+   0 vi /tmp/file
+   1 df -h | head -3 > /tmp/file
+   2 chmod g+w /tmp/file
+   3 chmod u-r /tmp/file
+   4 chmod o+x /tmp/file
+   5 export NAME=Artem VAR=10
+   6 echo $NAME $VAR >> /tmp/file
+   7 nano /tmp/file
+   8 unset NAME VAR
+   9 history > history.txt
+
